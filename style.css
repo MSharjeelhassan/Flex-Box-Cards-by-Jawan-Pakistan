@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  background-image: url("https://images.pexels.com/photos/7130560/pexels-photo-7130560.jpeg?cs=srgb&dl=pexels-codioful-%28formerly-gradienta%29-7130560.jpg&fm=jpg");
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  margin-top: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.box {
+  width: 20%;
+  background-color: #fff;
+  box-shadow: 10px -21px 72px 0px rgba(0, 0, 0, 0.63);
+  -webkit-box-shadow: 10px -21px 72px 0px rgba(0, 0, 0, 0.63);
+  -moz-box-shadow: 10px -21px 72px 0px rgba(0, 0, 0, 0.63);
+  border-radius: 5px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.card-icon p {
+  font-size: 2.5rem;
+  color: lightblue;
+}
+
+.card-content {
+  text-align: center;
+}
+
+.card-content h3 {
+  margin-bottom: 8px;
+}
+
+.card-content p {
+  color: grey;
+}
+
+.card-btn button {
+  background-color: blue;
+  border: 0;
+  padding: 12px;
+  border-radius: 10px;
+  color: white;
+}
+
+.box:hover {
+  background-color: blue;
+  color: white;
+}
+
+.box:hover .card-btn button {
+  background-color: white;
+  color: black;
+}
+
+.box:hover .card-icon {
+  background-color: white;
+  padding: 15px;
+  border-radius: 50%;
+}
